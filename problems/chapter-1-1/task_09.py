@@ -32,3 +32,9 @@ brush_price = 250
 brushes = 2
 
 # Решение
+full_paint = paint_price * cans
+full_brush = brush_price * brushes
+full = full_paint + full_brush
+print(f"Краска: {full_paint} руб.")
+print(f"Кисти: {full_brush} руб.")
+print(f"Всего: {full} руб.")
