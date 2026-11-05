@@ -1,0 +1,6 @@
+dr1 = float(input())
+dr2 = float(input())
+cel1 = round(dr1)
+cel2 = round(dr2)
+print(f"{dr1} → {cel1}")
+print(f"{dr2} → {cel2}")

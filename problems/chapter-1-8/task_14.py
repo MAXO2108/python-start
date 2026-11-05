@@ -7,4 +7,3 @@ ost = (flat_nom - 1) % kv_pad
 floor = ost // flats + 1
 print(f"Подъезд: {nom_pad}")
 print(f"Этаж: {floor}")
-
