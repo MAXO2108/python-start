@@ -27,3 +27,7 @@ tuesday = 300
 wednesday = 600
 
 # Решение
+summa = monday + tuesday + wednesday
+avg = summa / 3
+print(f"Всего: {summa} руб.")
+print(f"В среднем за день: {avg} руб.")

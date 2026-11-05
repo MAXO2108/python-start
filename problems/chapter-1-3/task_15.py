@@ -1,0 +1,5 @@
+visits = int(input())
+buyers = int(input())
+print("Посетители: " + str(visits))
+print(f"Покупатели: {buyers}")
+print(f"Конверсия: {buyers / visits * 100:.2f}%")

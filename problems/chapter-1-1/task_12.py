@@ -38,3 +38,10 @@ sms = 10
 sms_price = 2.5
 
 # Решение
+dopinter = gb_price * extra_gb
+sms_total = sms_price * sms
+total = subscription + dopinter + sms_total
+print(f"Абонентская плата: {subscription}")
+print(f"Доп. Интернет: {dopinter}")
+print(f"SMS: {sms_total}")
+print(f"Итого: {total}")

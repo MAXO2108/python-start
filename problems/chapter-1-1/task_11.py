@@ -26,3 +26,9 @@ price = 36000
 months = 12
 
 # Решение
+month = price / months 
+fivemonth = month * 5 
+total = price - fivemonth
+print(f"Платеж за месяц: {month}")
+print(f"Выплачено за 5 месяцев: {fivemonth}")
+print(f"Осталось: {total}")
