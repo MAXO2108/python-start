@@ -39,3 +39,8 @@
 #     False
 
 # Решение
+ost = int(input("Остаток на складе, шт.: "))
+price = int(input("Цена товара, руб.: "))
+summ = int(input("Деньги у покупателя, руб.: "))
+answer = ost > 0 and summ >= price
+print(answer)

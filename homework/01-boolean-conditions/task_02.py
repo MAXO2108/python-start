@@ -30,3 +30,7 @@
 #     Полный билет: False
 
 # Решение
+age = int(input("Возраст: "))
+discount = age < 18 or age >= 65
+print(f"Льготный билет: {discount}")
+print(f"Полный билет: {not discount}")

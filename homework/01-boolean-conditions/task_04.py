@@ -44,3 +44,10 @@
 #     Позвонить покупателю: False
 
 # Решение
+pay = input("Заказ оплачен (да/нет): ")
+tovar_nal = input("Товар есть (да/нет): ")
+adress = input("Адрес указан (да/нет): ")
+answer1 = pay == "да" and tovar_nal == "да" and adress == "да"
+answer2 = pay == "да" and adress == "нет"
+print(f"Можно отправлять: {answer1}")
+print(f"Позвонить покупателю: {answer2}")
