@@ -49,3 +49,14 @@
 #     Допущен: False
 
 # Решение
+pos = int(input("Посещаемость, %: "))
+works = int(input("Сдано лабораторных: "))
+debt = int(input("Долг по оплате, руб.: "))
+answer1 = pos >= 75
+answer2 = works >= 8
+answer3 = debt == 0
+answer4 = answer1 and answer2 and answer3
+print(f"Посещаемость: {answer1}")
+print(f"Сдано лабораторных: {answer2}")
+print(f"Долг по работе: {answer3}")
+print(f"Допущен: {answer4}")

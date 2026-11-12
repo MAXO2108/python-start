@@ -28,3 +28,6 @@
 #     False
 
 # Решение
+but = int(input("Количество бутылок: "))
+answer = (but % 6 == 0) and (but % 4 == 0)
+print(answer) 
