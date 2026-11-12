@@ -58,3 +58,11 @@
 #     Нужно сдать в багаж
 
 # Решение
+dlina = int(input("Длина, см: "))
+shirina = int(input("Ширина, см: "))
+visota = int(input("Высота, см: "))
+ves = float(input("Вес, кг: "))
+if dlina <=55 and shirina <= 40 and visota <= 20 and ves <= 10:
+    print("Можно взять в салон")
+else:
+    print("Нужно сдать в багаж")
