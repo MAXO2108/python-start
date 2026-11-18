@@ -34,3 +34,13 @@
 #     Батарея заряжена
 
 # Решение
+batareya = int(input("Заряд, %: "))
+if 0 <= batareya <= 15:
+    print("Критический заряд")
+elif 16 <= batareya <= 50:
+    print("Низкий заряд")
+elif 51 <= batareya <= 99:
+    print("Нормальный заряд")
+else:
+    print("Батарея заряжена")
+    

@@ -51,3 +51,17 @@
 #     Штраф: 5000 руб.
 
 # Решение
+norm_speed = int(input("Разрешённая скорость, км/ч: "))
+real_speed = int(input("Фактическая скорость, км/ч: "))
+full_speed = real_speed - norm_speed
+if 20 >= full_speed:
+    print("Штраф: 0 руб.")
+elif 21 <= full_speed <= 40:
+    print("Штраф: 750 руб.")
+elif 41 <= full_speed <= 60:
+    print("Штраф: 1500 руб.")
+elif 61 <= full_speed <= 80:
+    print("Штраф: 2500 руб.")
+else:
+    print("Штраф: 5000 руб.")
+    

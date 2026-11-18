@@ -43,3 +43,14 @@
 #     Кешбэк: 0.00 руб.
 
 # Решение
+kat_kesh = input("Категория: ")
+summ = float(input("Сумма покупки, руб: "))
+if "азс" == kat_kesh:
+    keshbek = summ * 0.05
+elif "аптека" == kat_kesh:
+    keshbek = summ * 0.03
+elif "супермаркет" == kat_kesh:
+    keshbek = summ * 0.01
+else:
+    keshbek = summ * 0
+print(f"Кешбэк: {keshbek:.2f} руб.")
