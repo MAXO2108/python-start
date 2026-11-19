@@ -43,3 +43,13 @@
 #     К оплате: 170 руб.
 
 # Решение
+tarif = input("Подписка есть (да/нет): ")
+time = int(input("Длительность поездки, мин: "))
+if time <= 30 and tarif == "да":
+    print("Поездка входит в подписку")
+elif time > 30 and tarif == "да":
+    price = (time - 30) * 5
+    print(f"К оплате: {price} руб.")
+else:
+    price = time * 8 + 50
+    print(f"К оплате: {price} руб.")

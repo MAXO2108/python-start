@@ -60,3 +60,23 @@
 #     Ошибка ввода
 
 # Решение
+dedlain = input("Сдана в срок (да/нет): ")
+bal = int(input("Баллы: "))
+if dedlain == "да":
+    if 10 >= bal >= 9:
+        print("Оценка: 5")
+    elif 8 >= bal >= 7:
+        print("Оценка: 4")
+    elif 6 >= bal >= 5:
+        print("Оценка: 3")
+    elif 0 < bal < 5:
+        print("Работа не зачтена")
+    else:
+        print("Ошибка ввода")
+elif dedlain == "нет":
+    if 5 <= bal <= 10:
+        print("Оценка: 3")
+    elif 0 <= bal <= 4:
+        print("Работа не зачтена")
+    else:
+        print("Ошибка ввода")
